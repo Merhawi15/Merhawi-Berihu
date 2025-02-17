@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang=en xml:lang=en xmlns='http://www.w3.org/1999/xhtml'>
+<!--The <html> tag is the root element of an HTML document. It contains all the other elements in the document, including the <head> and <body> sections. The attributes within the <html> tag provide additional information about the document.-->
+<head>
+   <meta charset=utf-8>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--The two meta tags are used to define the character encoding and the viewport settings for your HTML document.-->
+
+   <noscript>Parents, please enable Javascript in your browser in order to your student demo to work properly</noscript>
+   <!--The <noscript> tag is used to provide alternative content for users who have disabled JavaScript in their browsers or whose browsers do not support JavaScript. The content inside the <noscript> tag will only be displayed if JavaScript is not enabled.-->
+
+   <link href='Website Dependices/site.css' rel=stylesheet>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     <!-- Note: what does INTEGRITY mean? -->
+     <!---the integrity attribute is used in the <link> tag to ensure the integrity of the external resource being loaded.-->
+
+   <title>Main Page</title>
+   <link rel="icon" type="image/x-icon" href="Website Dependices/favicon/alienmonster.png">
+   <!--  https://icons8.com/icon/set/kitchen/family-animated--animated, 20250116 -->
+   <!-- Favicon is a Pathway and Image File, not from a server. Goes into computer. -->
+
+</head>
+<!--The <head> element in an HTML document contains meta-information about the document.-->
+
+<!--The <body> tag in an HTML document represents the main content of the document that is visible to the users. It is placed after the <head> tag and contains all the content that you want to display on the webpage, such as text, images, videos, links, forms, and other HTML elements.-->
+<body>
+  
+  <header id="incomplete">
+    <div class="header-left">
+      <h1><u>🌴YEET's Website🌴</u></h1>
+    </div>
+    <a href="More-about-me.html">
+    <button id="header-button">More About Me!</button>
+    </a>
+    <a href="Jey Uso – Main Event Ish (Entrance Theme).html">
+      <button id="music-button"> My Music Player</button>
+    </a>
+    <a href="quiz.html">
+      <button id="header-button">Quiz about HTML & World!</button>
+      </a>
+  </header>
+</header>
+
+  <!-- Portfolio Section -->
+  <section>
+    <div id="incomplete">
+      <h2><u>1. My Name is Merhawi</u></h2>
+      <h3><u>2. I'm in Grade 10</u></h3>
+    </div>
+    <div id="incomplete">
+      <h4><u>3. My Interests Are:</u></h4>
+        <ul>
+          <li>A. My hobbies are video games, drawing and programming</li>
+          <li>B. My Sports Are basketball & soccer</li>
+          <li>C. My Favoraite Foods Are Hamburger 🍔, Pizza 🍕 and Pasta 🍝</li>
+        </ul>
+    </div>
+  </section>
+  
+  <!-- Music Player Images Section -->
+   <section>
+    <div>
+      <img src="https://queenelizabeth.epsb.ca/media/styleassets-schools/queenelizabeth/QueenE_T4_logo_white.png" alt="Case Study">
+      <!-- Date Accessed:  February 16, 2025 -->
+      <img src="Images/MP.png" alt="Repeat for more images">
+      <!-- Date Accessed: February 16, 2025 -->
+    </div>
+    <div> 
+      <p1>1.<b>QE High School: </b> 
+        Queen Elizabeth High School in Edmonton offers sports, music, and clubs to help students grow. These activities improve teamwork, leadership, and time management skills, making students stronger in school and life.</p1>
+      <p2>2.<b>Music Player UI</b>
+        This music player user interface is a basic design for creating a simple and easy-to-use music app. It includes an album artwork space, song title, artist name, progress bar, playback buttons (shuffle, previous, play/pause, next, repeat), a favorite button, and a waveform display. These features help users control their music smoothly while keeping the design clear and engaging. A well-designed user interface makes the app more interactive, enjoyable, and adaptable for different devices like phones, websites, or computers.</p2>
+    </div>
+  </section>
+
+  <!-- Video & YouTube API Section -->
+  <section>
+	  <div> 
+      <p>3. <b>Jey Uso’s “Main Event Ish”</b> theme combines tribal beats and hip-hop, showing his Samoan roots and strong persona. It creates excitement for his entrance.
+
+        For a music player, it's important because the track has powerful beats and vocals that need to be clear. The player must have good sound quality, volume control, and smooth playback to enhance the listening experience.
+      </p>
+    </div>
+    <div>
+      <!-- YouTube API, see SHARE -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/0vqy1VOvJ8Y?si=RJR3L9CAHsbn905q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <!-- Date Accessed: Febuary 16, 2025-->
+  </section>
+
+  <!--The <footer> tag in HTML is used to define a footer for a document or a section.-->
+   <footer id="incomplete">
+
+  </footer>
+
+  <!-- Loading JavaScript Last: why some pages load and don't seem to 'work' -->
+  <script src='Website Dependices/script.js'></script>
+
+</body>
+<!--Improved Page Load Time: By placing the JavaScript at the end, the browser can load and render the HTML content first, which improves the perceived load time for the user.
+
+Avoid Blocking: If JavaScript is placed in the <head> section, it can block the rendering of the page until the script is fully downloaded and executed. This can make the page appear to load slowly.
+
+DOM Availability: Placing JavaScript at the end ensures that the DOM (Document Object Model) is fully constructed before the script runs. This is crucial for scripts that manipulate or interact with the DOM elements.-->
+
+<!-- End of HTML Page -->
+</html>
